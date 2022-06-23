@@ -10,6 +10,11 @@ body{
     background: linear-gradient(to right, #d6a4a4, #dae2f8);
 }
 
+.logo{
+    position: fixed;
+    size: 40px 10px;
+}
+
 nav{
     position: fixed;
     width: 100%;
@@ -59,7 +64,7 @@ nav{
     letter-spacing: 2px;
 }
 
-.navbar ul li:hover{
+.navbar ul li a:hover{
     cursor: pointer;
     transform: scale(0.98);
     opacity: 0.7;
@@ -123,7 +128,7 @@ body{
 }
 
 
-#phil5{
+#phili{
     background-image: url('../image 1/phil5.jpg');
     background-size: cover;
     background-position: center;
@@ -134,6 +139,12 @@ body{
     align-items: center;
     text-align: center;
     padding:0 20px;
+}
+
+#phili img{
+    max-width: 30%;
+    max-height: 30%;
+    position: center;
 }
 
 
@@ -184,3 +195,4 @@ hr{
     height: 1px;
     width: 100% 
 }
+
