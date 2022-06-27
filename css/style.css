@@ -129,7 +129,7 @@ body{
 
 
 #phili{
-    background-image: url('../image 1/phil5.jpg');
+    background-image: url('../image 1/phil7.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -161,14 +161,6 @@ h3{
     text-shadow: 0 02px 03px rgba(0,0,0,1);
 }
 
-#showcase .button{
-    font-size: 18px;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
 
 #section-a{
     padding: 20px;
@@ -194,5 +186,15 @@ hr{
     border-style: none;
     height: 1px;
     width: 100% 
+}
+
+#Area{
+    font-size: 40px;
+    color: rgb(158, 8, 245);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:0 20px;
+    font-style: bold;
 }
 
